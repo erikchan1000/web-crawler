@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "@types/node": "^22.10.7",
+    "crawlee": "^3.12.1",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.49.1",
+    "typescript": "^5.7.3"
+  },
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.31.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "yarn build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
