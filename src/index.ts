@@ -19,7 +19,7 @@ async function main() {
       successSelector: ".MuiAvatar-root",
     },
     browserConfig: {
-      headless: false,
+      headless: true,
     },
   });
 

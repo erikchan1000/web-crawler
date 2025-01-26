@@ -2,6 +2,7 @@ import { PlaywrightCrawler, Dataset, Log, Dictionary } from "crawlee";
 import { Page } from "playwright";
 import { RouteGraph } from "./routeGraph";
 import fs from "fs";
+import { sanitize } from "./parsingAlgo";
 
 interface AuthConfig {
   username: string;
@@ -146,24 +147,39 @@ export class RouteCrawler {
         }
       }
 
-      // Wait for content and take post-auth screenshot
+      await page.goto(request.url);
+
       await page.waitForLoadState("networkidle", {
         timeout: 150000,
       });
-      // await this.takeScreenshot(page, currentUrl.pathname, "after_auth");
 
+      // await this.takeScreenshot(page, currentUrl.pathname, "after_auth");
+      //
+      const result = await page.evaluate(() => {
+        if (typeof (window as any).setDataOptions === "function") {
+          (window as any).setDataOptions(true);
+          return "setDataOptions executed successfully";
+        } else {
+          return "setDataOptions is not defined on window";
+        }
+      });
+      console.log("Result of setDataOptions: ", result);
+
+      let parsedHtml = await page.content();
+      parsedHtml = sanitize(parsedHtml);
       // Add current route to graph
       this.graph.addRoute(currentUrl.pathname, fromPath, {
         params,
         queryParams,
         depth,
+        rawHtml: parsedHtml,
       });
 
       console.log("Adding query tab", currentUrl.searchParams.get("tab"));
+      const tab = currentUrl.searchParams.get("tab");
+      const subTab = currentUrl.searchParams.get("subtab");
 
-      this.visitedRoutes.add(
-        `${currentUrl.pathname}_${currentUrl.searchParams}`,
-      ),
+      this.visitedRoutes.add(`${currentUrl.pathname}_${tab}_${subTab}`),
         // Process visible links
         await this.processVisibleLinks(page, currentUrl, depth, enqueueLinks);
     } catch (error: any) {

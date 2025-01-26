@@ -10,6 +10,7 @@ export class RouteNode {
       depth: number;
       firstDiscoveredFrom: string | null;
       lastAccessed: Date;
+      rawHtml?: string;
     },
   ) {
     this.path = path;
