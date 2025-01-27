@@ -1,6 +1,6 @@
 import { PlaywrightCrawler, Dataset, Log, Dictionary } from "crawlee";
 import { Page } from "playwright";
-import { RouteGraph } from "./routeGraph";
+import { RouteGraph, RouteNode } from "./routeGraph";
 import fs from "fs";
 import { sanitize } from "./parsingAlgo";
 
@@ -166,13 +166,16 @@ export class RouteCrawler {
       console.log("Result of setDataOptions: ", result);
 
       let parsedHtml = await page.content();
-      parsedHtml = sanitize(parsedHtml);
+      let tables;
+
+      [parsedHtml, tables] = sanitize(parsedHtml);
       // Add current route to graph
       this.graph.addRoute(currentUrl.pathname, fromPath, {
         params,
         queryParams,
         depth,
         rawHtml: parsedHtml,
+        tables,
       });
 
       console.log("Adding query tab", currentUrl.searchParams.get("tab"));
@@ -501,7 +504,7 @@ export class RouteCrawler {
     log.error(`Request failed: ${request.url}`);
   }
 
-  public async run(): Promise<RouteGraph> {
+  public async run(): Promise<[RouteGraph, Map<string, RouteNode>]> {
     console.log(`Starting crawler at ${this.baseUrl}`);
 
     if (!fs.existsSync("screenshots")) {

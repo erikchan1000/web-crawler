@@ -1,3 +1,5 @@
+import { TableProps } from "./parsingAlgo";
+
 export class RouteNode {
   constructor(
     public path: string,
@@ -11,6 +13,7 @@ export class RouteNode {
       firstDiscoveredFrom: string | null;
       lastAccessed: Date;
       rawHtml?: string;
+      tables?: TableProps;
     },
   ) {
     this.path = path;
@@ -228,6 +231,6 @@ export class RouteGraph {
     };
 
     const visitedNodes = new Set<RouteNode>();
-    return serializeNode(this.root, visitedNodes);
+    return serializeNode(this.root, visitedNodes), this.nodes;
   }
 }

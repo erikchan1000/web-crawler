@@ -26,7 +26,7 @@ async function main() {
   console.log("Username: ", process.env.ATLAS_USERNAME);
   console.log("Password: ", process.env.ATLAS_PASSWORD);
   try {
-    const graph = await crawler.run();
+    const [graph, nodes] = await crawler.run();
 
     // Get route metrics
     const metrics = graph.getRouteMetrics();
@@ -35,6 +35,7 @@ async function main() {
     // Save the serializable graph data
     const graphData = graph.toSerializable();
     fs.writeFileSync("route-map.json", JSON.stringify(graphData, null, 2));
+    fs.writeFileSync("nodes.json", JSON.stringify(nodes, null, 2));
 
     console.log("Route map saved to route-map.json");
     console.log("Screenshots saved in ./screenshots directory");
