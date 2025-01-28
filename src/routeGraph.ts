@@ -32,6 +32,10 @@ export class RouteGraph {
     this.nodes.set(baseUrl, this.root);
   }
 
+  public getNodes() {
+    return this.nodes;
+  }
+
   private createNode(path: string, parent: RouteNode | null): RouteNode {
     return new RouteNode(path, [], parent, {
       frequency: 1,

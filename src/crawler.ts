@@ -119,19 +119,21 @@ export class RouteCrawler {
     if (this.cookies.length > 0) {
       await page.context().addCookies(this.cookies);
     }
+    const tab = currentUrl.searchParams.get("tab");
+    const subTab = currentUrl.searchParams.get("subtab");
 
     if (
       depth > this.config.maxDepth ||
       (this.visitedRoutes.has(
-        `${currentUrl.pathname}_${currentUrl.searchParams}`,
+        `${currentUrl.pathname.split("/")[1]}_${tab}_${subTab}`,
       ) &&
         !currentUrl.pathname.includes("sign_in"))
     ) {
       return;
     }
-
+    console.log(currentUrl.pathname.split("/"));
     log.info(
-      `Processing ${currentUrl.pathname}/${currentUrl.searchParams} (from: ${fromPath || "root"}, depth: ${depth})`,
+      `Processing ${currentUrl.pathname.split("/")[1]}/${currentUrl.searchParams} (from: ${fromPath || "root"}, depth: ${depth})`,
     );
 
     try {
@@ -177,12 +179,11 @@ export class RouteCrawler {
         rawHtml: parsedHtml,
         tables,
       });
-
       console.log("Adding query tab", currentUrl.searchParams.get("tab"));
-      const tab = currentUrl.searchParams.get("tab");
-      const subTab = currentUrl.searchParams.get("subtab");
 
-      this.visitedRoutes.add(`${currentUrl.pathname}_${tab}_${subTab}`),
+      this.visitedRoutes.add(
+        `${currentUrl.pathname.split("/")[1]}_${tab}_${subTab}`,
+      ),
         // Process visible links
         await this.processVisibleLinks(page, currentUrl, depth, enqueueLinks);
     } catch (error: any) {
@@ -524,7 +525,7 @@ export class RouteCrawler {
 
       // Save final graph state
 
-      return this.graph;
+      return [this.graph, this.graph.getNodes()];
     } catch (error) {
       console.error("Crawler failed:", error);
       throw error;

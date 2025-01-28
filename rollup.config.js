@@ -2,6 +2,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import json from "@rollup/plugin-json";
+import { strict } from "assert";
 
 export default {
   input: "src/index.ts", // Entry file
@@ -9,14 +10,23 @@ export default {
     dir: "dist",
     format: "esm",
     sourcemap: true,
+    strict: false,
+    intro: 'const global = globalThis;'
+
   },
-  external: ["crawlee", "node:stream", "puppeteer"], // Exclude Node.js core modules
+  context: "globalThis",
+  external: ["crawlee", "node:stream", "puppeteer", "encoding-sniffer"], // Exclude Node.js core modules
   plugins: [
     resolve({
       preferBuiltins: true,
+      exportConditions: ["node"],
     }),
-    commonjs(),
-    typescript(),
+    commonjs({
+      transformMixedEsModules: true,
+    }),
+    typescript({
+      tsconfig: "./tsconfig.json",
+    }),
     json(),
   ],
 };

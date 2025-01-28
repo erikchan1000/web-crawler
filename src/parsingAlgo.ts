@@ -98,6 +98,8 @@ export const sanitize = (html: string): [string, TableProps] => {
     if (!isElement(node)) return;
 
     const id = node.attribs.id;
+    if (!id.includes("_")) return;
+
     const optionsMap: { [key: string]: string[] } = {
       1: [],
       2: [],
@@ -109,14 +111,12 @@ export const sanitize = (html: string): [string, TableProps] => {
     for (let i = 0; i < 2; i++) {
       const option = dataOptions[i];
       const decodedOptions = decodeHTML($(option).attr("data-options") || "");
-      console.log("Decoded Options: ", decodedOptions);
       JSON.parse(decodedOptions || "[]").forEach((option: Option) => {
         optionsMap[i + 1].push(option.label);
       });
     }
-    console.log("Id: ", id);
     tables[id] = optionsMap ?? {};
   });
 
-  return [$.html(), tables];
+  return ["", tables];
 };
