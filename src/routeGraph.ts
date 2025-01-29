@@ -235,6 +235,6 @@ export class RouteGraph {
     };
 
     const visitedNodes = new Set<RouteNode>();
-    return serializeNode(this.root, visitedNodes), this.nodes;
+    return serializeNode(this.root, visitedNodes);
   }
 }

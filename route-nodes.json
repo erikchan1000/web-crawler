@@ -1,0 +1,1096 @@
+[
+  {
+    "path": "https://atlas-localhost.stackline.com/",
+    "data": {
+      "frequency": 1,
+      "params": {},
+      "queryParams": {},
+      "depth": 0,
+      "firstDiscoveredFrom": null,
+      "lastAccessed": "2025-01-29T06:05:14.436Z"
+    }
+  },
+  {
+    "path": "/",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {},
+        "depth": 0,
+        "rawHtml": "",
+        "tables": {}
+      },
+      "queryParams": {},
+      "depth": 1,
+      "firstDiscoveredFrom": "https://atlas-localhost.stackline.com/",
+      "lastAccessed": "2025-01-29T06:05:30.397Z"
+    }
+  },
+  {
+    "path": "/home",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "summary"
+          ],
+          "subtab": [
+            "atlas"
+          ],
+          "entityType": [
+            "segment"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {}
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "summary"
+        ],
+        "subtab": [
+          "atlas"
+        ],
+        "entityType": [
+          "segment"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:05:37.845Z"
+    }
+  },
+  {
+    "path": "/company/WjnegYbwZ1",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "scorecard"
+          ],
+          "subtab": [
+            "all"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {}
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "scorecard"
+        ],
+        "subtab": [
+          "all"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:05:39.680Z"
+    }
+  },
+  {
+    "path": "/home",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "summary"
+          ],
+          "subtab": [
+            "atlas"
+          ],
+          "entityType": [
+            "category"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {}
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "summary"
+        ],
+        "subtab": [
+          "atlas"
+        ],
+        "entityType": [
+          "category"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:05:40.979Z"
+    }
+  },
+  {
+    "path": "/home",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "summary"
+          ],
+          "subtab": [
+            "atlas"
+          ],
+          "entityType": [
+            "searchtermlist"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {}
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "summary"
+        ],
+        "subtab": [
+          "atlas"
+        ],
+        "entityType": [
+          "searchtermlist"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:05:42.799Z"
+    }
+  },
+  {
+    "path": "/company/WjnegYbwZ1",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "traffic"
+          ],
+          "subtab": [
+            "totalClicks"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {
+          "total_traffic": {
+            "1": [],
+            "2": []
+          },
+          "total_traffic_by": {
+            "1": [
+              "Keyword",
+              "Brand",
+              "Category",
+              "Subcategory",
+              "Product",
+              "Manufacturer"
+            ],
+            "2": []
+          },
+          "share_of_total_traffic": {
+            "1": [],
+            "2": []
+          },
+          "keyword_count_with_total_traffic": {
+            "1": [],
+            "2": []
+          }
+        }
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "traffic"
+        ],
+        "subtab": [
+          "totalClicks"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:05:46.394Z"
+    }
+  },
+  {
+    "path": "/company/WjnegYbwZ1",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "conversion"
+          ],
+          "subtab": [
+            "purchaseRate"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {
+          "conversion_rate": {
+            "1": [],
+            "2": []
+          },
+          "conversion_rate_by_brandconversion_rate_by": {
+            "1": [
+              "Brand",
+              "Category",
+              "Subcategory",
+              "Manufacturer"
+            ],
+            "2": []
+          }
+        }
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "conversion"
+        ],
+        "subtab": [
+          "purchaseRate"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:05:50.540Z"
+    }
+  },
+  {
+    "path": "/company/WjnegYbwZ1",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "sales"
+          ],
+          "subtab": [
+            "retailSales"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {
+          "retail_sales": {
+            "1": [
+              "Market Share of Retail Sales",
+              "1P Market Share of Retail Sales",
+              "1P Market Share of 1P Retail Sales",
+              "3P Market Share of Retail Sales",
+              "3P Market Share of 3P Retail Sales"
+            ],
+            "2": []
+          },
+          "product_count": {
+            "1": [],
+            "2": []
+          },
+          "1p_retail_sales_as_%_of_total": {
+            "1": [],
+            "2": []
+          },
+          "retailsales_by_brandid": {
+            "1": [
+              "Retail Sales",
+              "1P Retail Sales",
+              "3P Retail Sales"
+            ],
+            "2": [
+              "Brand",
+              "Category",
+              "Subcategory",
+              "Manufacturer"
+            ]
+          }
+        }
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "sales"
+        ],
+        "subtab": [
+          "retailSales"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:05:52.308Z"
+    }
+  },
+  {
+    "path": "/company/WjnegYbwZ1",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "prices"
+          ],
+          "subtab": [
+            "retailPrice"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {
+          "retail_price": {
+            "1": [],
+            "2": []
+          },
+          "price_index": {
+            "1": [],
+            "2": []
+          },
+          "retail_price_by": {
+            "1": [
+              "Brand",
+              "Category",
+              "Subcategory",
+              "Manufacturer"
+            ],
+            "2": []
+          }
+        }
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "prices"
+        ],
+        "subtab": [
+          "retailPrice"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:05:53.657Z"
+    }
+  },
+  {
+    "path": "/company/WjnegYbwZ1",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "content"
+          ],
+          "subtab": [
+            "contentScore"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {
+          "content_score": {
+            "1": [],
+            "2": []
+          },
+          "content_utilization": {
+            "1": [],
+            "2": []
+          }
+        }
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "content"
+        ],
+        "subtab": [
+          "contentScore"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:06:00.425Z"
+    }
+  },
+  {
+    "path": "/product/JEGNL6XDV",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "scorecard"
+          ],
+          "subtab": [
+            "all"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {}
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "scorecard"
+        ],
+        "subtab": [
+          "all"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:06:01.855Z"
+    }
+  },
+  {
+    "path": "/company/WjnegYbwZ1",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "rating"
+          ],
+          "subtab": [
+            "rating"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {}
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "rating"
+        ],
+        "subtab": [
+          "rating"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:06:02.107Z"
+    }
+  },
+  {
+    "path": "/brand/1745",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {
+          "param1": "1745"
+        },
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "scorecard"
+          ],
+          "subtab": [
+            "all"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {}
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "scorecard"
+        ],
+        "subtab": [
+          "all"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:06:06.377Z"
+    }
+  },
+  {
+    "path": "/product/7X1P135W6",
+    "data": {
+      "frequency": 1,
+      "params": {
+        "params": {},
+        "queryParams": {
+          "rid": [
+            "1"
+          ],
+          "pid": [
+            "prior-year"
+          ],
+          "sw": [
+            "202501"
+          ],
+          "ew": [
+            "202504"
+          ],
+          "sdid": [
+            "20241229"
+          ],
+          "edid": [
+            "20250125"
+          ],
+          "wr": [
+            "ytd"
+          ],
+          "tab": [
+            "scorecard"
+          ],
+          "subtab": [
+            "all"
+          ]
+        },
+        "depth": 1,
+        "rawHtml": "",
+        "tables": {}
+      },
+      "queryParams": {
+        "rid": [
+          "1"
+        ],
+        "pid": [
+          "prior-year"
+        ],
+        "sw": [
+          "202501"
+        ],
+        "ew": [
+          "202504"
+        ],
+        "sdid": [
+          "20241229"
+        ],
+        "edid": [
+          "20250125"
+        ],
+        "wr": [
+          "ytd"
+        ],
+        "tab": [
+          "scorecard"
+        ],
+        "subtab": [
+          "all"
+        ]
+      },
+      "depth": 2,
+      "firstDiscoveredFrom": "/",
+      "lastAccessed": "2025-01-29T06:06:07.437Z"
+    }
+  }
+]
